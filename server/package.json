@@ -1,0 +1,19 @@
+{
+  "name": "todo-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "TODO_LANG=en vitest run",
+    "test:watch": "TODO_LANG=en vitest"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "vitest": "^3.1.1"
+  }
+}

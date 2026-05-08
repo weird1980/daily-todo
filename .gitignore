@@ -1,0 +1,11 @@
+node_modules/
+dist/
+build/
+.DS_Store
+.idea/
+.vscode/
+*.log
+.env
+.env.local
+~/.todo/
+.superpowers/

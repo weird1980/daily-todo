@@ -1,0 +1,23 @@
+{
+  "name": "daily-todo",
+  "version": "1.0.0",
+  "description": "A local-first daily task manager: REST + WebSocket server, React dashboard, and CLI. Multi-language (en/es/ca/fr).",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "server",
+    "dashboard",
+    "cli"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,dashboard -c blue,green \"npm run start -w server\" \"npm run dev -w dashboard\"",
+    "start": "npm run dev",
+    "server": "npm run start -w server",
+    "dashboard": "npm run dev -w dashboard",
+    "build": "npm run build -w dashboard",
+    "test": "npm run test -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

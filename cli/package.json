@@ -1,0 +1,13 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "todo": "./bin/todo.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "clipboardy": "^4.0.0",
+    "commander": "^13.1.0"
+  }
+}
