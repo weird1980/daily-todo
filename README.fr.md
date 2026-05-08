@@ -63,7 +63,7 @@ Pas de SaaS, pas de compte, pas de cloud. Juste SQLite dans `~/.todo/todo.db` et
 ### Installation
 
 ```bash
-git clone https://github.com/quim/daily-todo.git
+git clone https://github.com/weird1980/daily-todo.git
 cd daily-todo
 npm install
 ```

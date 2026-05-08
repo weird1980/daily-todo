@@ -63,7 +63,7 @@ Sense SaaS, sense comptes, sense núvol. Només SQLite a `~/.todo/todo.db` i tre
 ### Instal·lar
 
 ```bash
-git clone https://github.com/quim/daily-todo.git
+git clone https://github.com/weird1980/daily-todo.git
 cd daily-todo
 npm install
 ```

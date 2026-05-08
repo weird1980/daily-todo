@@ -63,7 +63,7 @@ Sin SaaS, sin cuentas, sin nube. Solo SQLite en `~/.todo/todo.db` y tres proceso
 ### Instalar
 
 ```bash
-git clone https://github.com/quim/daily-todo.git
+git clone https://github.com/weird1980/daily-todo.git
 cd daily-todo
 npm install
 ```

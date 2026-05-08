@@ -4,6 +4,14 @@
   "description": "A local-first daily task manager: REST + WebSocket server, React dashboard, and CLI. Multi-language (en/es/ca/fr).",
   "private": true,
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weird1980/daily-todo.git"
+  },
+  "homepage": "https://github.com/weird1980/daily-todo#readme",
+  "bugs": {
+    "url": "https://github.com/weird1980/daily-todo/issues"
+  },
   "workspaces": [
     "server",
     "dashboard",
